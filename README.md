@@ -1,6 +1,6 @@
-# gdpr-linebot-controlled-qa
-A controlled AI-assisted GDPR Q&amp;A prototype using semantic retrieval and offline-validated responses.
 # GDPR LINE Bot: Controlled AI-Assisted Privacy Q&A Prototype
+
+A controlled AI-assisted GDPR Q&A prototype using semantic retrieval and offline-validated responses.
 
 ## Project Overview
 
