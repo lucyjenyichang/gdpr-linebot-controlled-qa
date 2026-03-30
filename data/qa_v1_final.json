@@ -1,0 +1,51 @@
+{
+    "企業是否能處理特殊類型之個人資料?": [
+        "Article 9, Paragraph 1 — General prohibition on processing special categories of personal data.\n→ Processing of special categories of personal data is, as a rule, prohibited under the GDPR.\n\n中文摘要說明：\n→ GDPR 原則上禁止企業處理特殊類型之個人資料（如健康資料、生物特徵、政治立場等），除非符合特定法定例外。\n\nConclusion / 結論說明：\n→ In principle, the processing of special categories of personal data is prohibited under the GDPR.\n→ 原則上，企業不得任意處理特殊類型之個人資料。",
+
+        "Article 9, Paragraph 2(a) — Explicit consent.\n→ Processing is permitted where the data subject has given explicit consent for one or more specified purposes.\n\n中文摘要說明：\n→ 若資料主體已就特定目的給予明確同意，企業得例外處理特殊類型之個人資料。\n\nConclusion / 結論說明：\n→ Explicit consent constitutes a lawful exception to the general prohibition.\n→ 明確同意為處理特殊類型個人資料的重要例外基礎之一。",
+
+        "Article 9, Paragraph 2(b) — Employment, social security and social protection law.\n→ Processing is allowed where necessary for obligations and rights in employment and social protection law.\n\n中文摘要說明：\n→ 若處理行為係為履行就業、社會保障或社會保護相關法律義務，得依法處理。\n\nConclusion / 結論說明：\n→ Processing may be lawful when required by employment or social protection laws.\n→ 就業與社會保障法律構成處理特殊資料的法定依據。",
+
+        "Article 9, Paragraph 2(c) — Vital interests.\n→ Processing is permitted to protect the vital interests of the data subject or another person.\n\n中文摘要說明：\n→ 為保護資料主體或他人生命安全等重大利益時，得例外處理。\n\nConclusion / 結論說明：\n→ Protection of vital interests justifies exceptional processing.\n→ 生命利益保護可構成例外處理依據。",
+
+        "Article 9, Paragraph 2(d) — Non-profit bodies.\n→ Non-profit bodies may process such data for legitimate activities relating to their members.\n\n中文摘要說明：\n→ 非營利組織於合法活動範圍內，且僅針對其成員或前成員，得處理相關資料。\n\nConclusion / 結論說明：\n→ Non-profit activities constitute a limited exception.\n→ 非營利組織在特定條件下得例外處理。",
+
+        "Article 9, Paragraph 2(e) — Data made public by the data subject.\n→ Processing is allowed where the data subject has manifestly made the data public.\n\n中文摘要說明：\n→ 若資料已由資料主體自行公開，企業得例外處理。\n\nConclusion / 結論說明：\n→ Self-publication removes the general prohibition.\n→ 資料主體自行公開可解除原則性禁止。",
+
+        "Article 9, Paragraph 2(f) — Legal claims.\n→ Processing is permitted for the establishment, exercise or defence of legal claims.\n\n中文摘要說明：\n→ 為法律訴訟、權利主張或司法程序所必要者，得處理。\n\nConclusion / 結論說明：\n→ Legal proceedings justify processing.\n→ 法律請求構成正當處理理由。",
+
+        "Article 9, Paragraph 2(g) — Substantial public interest.\n→ Processing is permitted for reasons of substantial public interest under EU or Member State law.\n\n中文摘要說明：\n→ 基於歐盟或成員國法律所規定之重大公共利益，得處理。\n\nConclusion / 結論說明：\n→ Public interest exceptions must be legally grounded.\n→ 重大公共利益須有明確法律依據。",
+
+        "Article 9, Paragraph 2(h) — Health or social care.\n→ Processing is allowed for preventive medicine, medical diagnosis, health or social care.\n\n中文摘要說明：\n→ 為醫療、健康或社會照護目的，得依法處理。\n\nConclusion / 結論說明：\n→ Health-related purposes form a lawful exception.\n→ 健康與醫療用途為法定例外。",
+
+        "Article 9, Paragraph 2(i) — Public health.\n→ Processing is allowed for public health purposes.\n\n中文摘要說明：\n→ 為公共衛生管理或防疫需求，得例外處理。\n\nConclusion / 結論說明：\n→ Public health needs justify processing.\n→ 公共衛生需求構成合法例外。",
+
+        "Article 9, Paragraph 2(j) — Archiving, research and statistics.\n→ Processing is permitted for archiving, scientific or historical research, or statistical purposes.\n\n中文摘要說明：\n→ 用於檔案保存、研究或統計目的，且具適當保障措施時，得處理。\n\nConclusion / 結論說明：\n→ Research and archiving purposes allow conditional processing.\n→ 研究與統計目的在特定條件下可合法處理。"
+    ],
+
+    "資料主體有哪些權利?": [
+        "Articles 1–11 GDPR — Scope and principles.\n→ These articles define objectives, scope, definitions and processing principles, but do not enumerate specific data subject rights.\n\n中文摘要說明：\n→ GDPR 第 1 至 11 條主要規範適用範圍、定義與原則，尚未具體列舉資料主體權利。\n\nConclusion / 結論說明：\n→ No specific data subject rights can be identified from Articles 1–11 alone.\n→ 僅依第 1 至 11 條，尚無法列舉具體資料主體權利。"
+    ],
+
+    "個人資料應保存多久?": [
+        "Article 5, Paragraph 1(e) — Storage limitation principle.\n→ Personal data shall not be kept longer than necessary for processing purposes.\n\n中文摘要說明：\n→ 個人資料保存期間不得超過達成處理目的所必要之時間。\n\nConclusion / 結論說明：\n→ Data retention must be limited to necessity.\n→ 資料保存應遵循最小必要原則。",
+
+        "Article 5, Paragraph 1(e) — Exception for archiving and research.\n→ Longer storage is permitted for public interest archiving, research or statistics with safeguards.\n\n中文摘要說明：\n→ 若用於公共利益、研究或統計目的，且具適當保護措施，得延長保存。\n\nConclusion / 結論說明：\n→ Extended storage is conditionally allowed.\n→ 特定目的下可例外延長保存。"
+    ],
+
+    "處理個人資料前是否需要取得同意?": [
+    "Article 6, Paragraph 1 — Lawfulness of processing:\nProcessing of personal data shall be lawful only if at least one of the following applies: (a) consent of the data subject; (b) performance of a contract; (c) compliance with a legal obligation; (d) protection of vital interests; (e) performance of a task carried out in the public interest or in the exercise of official authority; (f) legitimate interests pursued by the controller.\n\n中文摘要說明：\n→ 依 GDPR 第 6 條第 1 款，處理個人資料必須有合法基礎。同意是其中一種合法基礎，但並非唯一或必須。其他合法基礎包括契約履行、符合法定義務、保護生命利益、公共利益任務或正當利益。\n\nConclusion / 結論說明:\n→ Consent is one lawful basis, but not the only one.\n→ 同意是合法處理的其中一種基礎，但非必須，其他條件也可合法處理。",
+
+    "Article 7 — Conditions for consent:\nConsent must be freely given, specific, informed, and unambiguous. The controller must be able to demonstrate consent; the data subject has the right to withdraw consent at any time.\n\n中文摘要說明：\n→ 若處理以同意為基礎，須能證明同意存在，資料主體得隨時撤回同意。\n\nConclusion / 結論說明:\n→ Consent is revocable and conditional.\n→ 以同意為基礎的處理，具有可撤回性與條件限制。",
+
+    "Article 9 — Special categories of personal data:\nProcessing of special categories of personal data is generally prohibited unless one of the following applies: (a) explicit consent; (b) employment, social security or social protection law obligations; (c) vital interests; (d) non-profit bodies processing for members; (e) data manifestly made public; (f) legal claims; (g) substantial public interest; (h) health or social care; (i) public health; (j) archiving, research, or statistics purposes.\n\n中文摘要說明：\n→ 特殊類別個人資料原則上需明確同意，但 GDPR 規定了多項例外情況，如法律義務、保護生命利益、非營利目的、公共利益、健康或科研等。\n\nConclusion / 結論說明:\n→ Explicit consent is required for sensitive data unless another legal exception applies.\n→ 特殊資料原則需明確同意，但符合法定例外的情況仍可合法處理。"
+],
+
+    "企業於歐盟提供商品或服務所涉之個人資料處理是否適用GDPR?": [
+        "Article 3, Paragraph 2 — Extraterritorial scope.\n→ GDPR applies to non-EU companies offering goods or services to EU data subjects.\n\n中文摘要說明：\n→ 即使企業未設立於歐盟，只要向歐盟境內資料主體提供商品或服務，即適用 GDPR。\n\nConclusion / 結論說明：\n→ GDPR has extraterritorial effect.\n→ GDPR 具域外適用效力。"
+    ],
+
+    "企業應如何保護個人資料安全?": [
+        "Article 5, Paragraph 1(f) — Integrity and confidentiality.\n→ Companies must ensure appropriate security through technical and organisational measures.\n\n中文摘要說明：\n→ 企業應確保個人資料的保密性、完整性與可用性，並採取適當保護措施。\n\nConclusion / 結論說明：\n→ Companies are legally required to protect data security.\n→ 企業依法負有資料安全保護義務。"
+    ]
+}
