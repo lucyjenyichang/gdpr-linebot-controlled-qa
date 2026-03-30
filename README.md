@@ -1,3 +1,57 @@
+# GDPR LINE Bot: Controlled AI Legal Q&A System
+
+A controlled AI-powered GDPR question-answering system that avoids hallucination by combining semantic retrieval with offline-validated answers.
+
+---
+
+## 🔍 What Makes This Project Different
+
+Most AI chatbots rely on real-time LLM generation, which can produce:
+
+- hallucinated legal interpretations  
+- inconsistent answers  
+- low traceability  
+
+👉 This project takes a different approach:
+
+- No real-time LLM generation in production  
+- All answers are pre-validated and fixed  
+- Semantic retrieval is used instead of generation  
+
+This makes the system **more reliable, controllable, and auditable** for legal use cases.
+
+---
+
+## 🧠 Key Idea
+
+> Use LLM as a **validator**, not as the **final answer generator**
+
+- LLM is used **offline** to validate QA pairs  
+- The online system only retrieves **approved answers**  
+- Every response is **traceable to GDPR articles**
+
+---
+
+## 🖼️ Demo
+
+### 1. Precise Legal Query
+![Precise Query](assets/1_precise_query_en.png)
+
+### 2. Semantic / Ambiguous Query
+![Ambiguous Query](assets/2_ambiguous_query_en.png)
+
+### 3. Bilingual Query (EN / ZH)
+![Bilingual Query](assets/3_query_zh.png)
+
+### 4. Out-of-Scope Question Handling
+![Fallback](assets/4_fallback.png)
+
+### 5. Knowledge Boundary Control (Critical)
+![Out of Scope](assets/5_out_of_scope.png)
+
+---
+
+## 🏗️ System Architecture
 # GDPR LINE Bot: Controlled AI-Assisted Privacy Q&A Prototype
 
 A controlled AI-assisted GDPR Q&A prototype using semantic retrieval and offline-validated responses.
