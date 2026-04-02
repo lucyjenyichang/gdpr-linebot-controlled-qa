@@ -76,8 +76,8 @@ This ensures:
 
 This evaluates whether the system correctly avoids answering when:
 
-- the query is خارج knowledge scope
-- insufficient supporting legal data exists
+- the query falls outside the supported knowledge scope
+- insufficient supporting legal data is available
 
 Instead of generating uncertain answers, the system:
 
