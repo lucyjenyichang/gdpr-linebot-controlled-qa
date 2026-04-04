@@ -151,7 +151,8 @@ This helps ensure:
 
 ## 📁 Project Structure
 
-tree .
+```text
+.
 ├── notebooks/
 │   ├── GDPR_Preprocessing_and_Embedding_clean.ipynb
 │   └── LINE_GDPR_QA_Bot_clean.ipynb
