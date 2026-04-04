@@ -69,13 +69,27 @@ This project takes a different approach:
 
 ---
 
-## 🧠 Key Idea
+## 🧠 Key Insight
 
-Use LLM as a **validator**, not a generator.
+This project explores a controlled alternative to generative AI in legal systems.
 
-- LLM is used only in the **offline QA pipeline**
-- Online system retrieves answers from a **controlled QA database**
-- Every response is **traceable to GDPR articles**
+Instead of optimizing for answer fluency, it prioritizes:
+
+- correctness over creativity  
+- traceability over flexibility  
+- safety over coverage  
+
+The system demonstrates that:
+
+> A legal AI system should not only answer correctly — it should also know when not to answer.
+
+By combining:
+
+- semantic retrieval  
+- offline QA validation  
+- strict knowledge boundary control  
+
+this approach reduces hallucination risk and improves reliability in regulated environments.
 
 ---
 
@@ -135,6 +149,55 @@ This helps ensure:
 
 ---
 
+## 📁 Project Structure
+.
+├── notebooks/
+│   ├── GDPR_Preprocessing_and_Embedding_clean.ipynb
+│   └── LINE_GDPR_QA_Bot_clean.ipynb
+│
+├── data/
+│   └── qa_v1_final.json
+│
+├── assets/
+│   ├── precise_query.png
+│   ├── ambiguous_query.png
+│   ├── bilingual_query.png
+│   ├── fallback.png
+│   └── out_of_scope.png
+│
+├── docs/
+│   ├── system_overview.md
+│   └── chunking_strategy.md
+│
+├── evaluation/
+│   ├── retrieval_evaluation.md
+│   └── limitations.md
+│
+└── README.md
+
+---
+
+## ⚡ Quick Start
+
+This project is a prototype built in a notebook-based environment.
+
+To explore the system:
+
+1. Open the preprocessing notebook:
+   - `notebooks/GDPR_Preprocessing_and_Embedding_clean.ipynb`
+   - demonstrates chunking, embedding construction, and QA pipeline
+
+2. Open the LINE Bot notebook:
+   - `notebooks/LINE_GDPR_QA_Bot_clean.ipynb`
+   - demonstrates query embedding and retrieval workflow
+
+3. Review the final QA dataset:
+   - `data/qa_v1_final.json`
+
+> Note: API keys and sensitive credentials are not included.
+
+---
+
 ## 📌 Project Overview
 
 This project is a legal-tech and privacy-tech prototype designed to answer GDPR-related questions through a controlled semantic retrieval workflow.
@@ -188,3 +251,14 @@ All rights reserved.
 
 This repository is publicly visible for portfolio purposes only.  
 No part of this project may be used, copied, modified, or distributed without explicit permission.
+
+---
+
+## 👤 Author
+
+This project was developed as part of an AI + legal-tech exploration focused on building **reliable and controllable AI systems for regulatory domains**.
+
+Feel free to connect or reach out:
+
+- LinkedIn: https://www.linkedin.com/in/lucy-jenyi-chang-40b643198/
+- GitHub: https://github.com/lucyjenyichang
