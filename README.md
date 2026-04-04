@@ -1,34 +1,35 @@
 # GDPR LINE Bot: Controlled AI Legal Q&A System
 
-A controlled AI-powered GDPR question-answering system that avoids hallucination by combining semantic retrieval with offline-validated answers.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Retrieval--Based-green)
+![Domain](https://img.shields.io/badge/Domain-Legal%20AI-orange)
+![Status](https://img.shields.io/badge/Status-Prototype-lightgrey)
+
+A **controlled legal AI system** that answers GDPR questions without real-time LLM generation.
+
+Instead of generating responses on the fly, this system:
+- retrieves answers from a **pre-validated QA knowledge base**
+- ensures **legal traceability**
+- avoids hallucination by design
+
+> 💡 LLM is used offline for validation — not as the final answer generator.
 
 ---
 
-## 🔍 What Makes This Project Different
+## 🔍 What Makes This Different
 
-Most AI chatbots rely on real-time LLM generation, which can produce:
-
+Most AI chatbots rely on real-time generation, which can produce:
 - hallucinated legal interpretations  
 - inconsistent answers  
 - low traceability  
 
-👉 This project takes a different approach:
+This project takes a different approach:
 
-- No real-time LLM generation in production  
-- All answers are pre-validated and fixed  
-- Semantic retrieval is used instead of generation  
+- ❌ No real-time LLM generation  
+- ✅ Pre-validated and fixed answers  
+- ✅ Semantic retrieval with full traceability  
 
-This makes the system **more reliable, controllable, and auditable** for legal use cases.
-
----
-
-## 🧠 Key Idea
-
-Use LLM as a **validator**, not as the final answer generator.
-
-- LLM is used offline to validate QA pairs  
-- The online system only retrieves approved answers  
-- Every response is traceable to GDPR articles  
+👉 Designed for **reliability, control, and legal safety**
 
 ---
 
@@ -52,7 +53,7 @@ Use LLM as a **validator**, not as the final answer generator.
 
 ---
 
-### 4. Out-of-Scope Question Handling
+### 4. Out-of-Scope Query (Fallback)
 
 ![Fallback](assets/fallback.png)
 
@@ -61,6 +62,20 @@ Use LLM as a **validator**, not as the final answer generator.
 ### 5. Knowledge Boundary Control (Critical)
 
 ![Out of Scope](assets/out_of_scope.png)
+
+> The system distinguishes between:
+> - irrelevant queries → fallback  
+> - out-of-scope legal queries → boundary-aware response  
+
+---
+
+## 🧠 Key Idea
+
+Use LLM as a **validator**, not a generator.
+
+- LLM is used only in the **offline QA pipeline**
+- Online system retrieves answers from a **controlled QA database**
+- Every response is **traceable to GDPR articles**
 
 ---
 
