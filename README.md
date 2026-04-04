@@ -150,6 +150,8 @@ This helps ensure:
 ---
 
 ## 📁 Project Structure
+
+```text
 .
 ├── notebooks/
 │   ├── GDPR_Preprocessing_and_Embedding_clean.ipynb
@@ -174,6 +176,7 @@ This helps ensure:
 │   └── limitations.md
 │
 └── README.md
+```
 
 ---
 
