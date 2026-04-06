@@ -179,7 +179,7 @@ Rather than relying on real-time generation, this project depends on the quality
 
 The following diagram summarizes the evolution from fixed-length chunking to the final structure-aware legal chunking strategy.
 
-![Chunking Strategy Evolution](../assets/chunking_strategy_evolution.png)
+![03_Chunking_Strategy](../assets/03_chunking_strategy.png)
 
 ---
 
