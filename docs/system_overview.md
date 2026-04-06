@@ -17,11 +17,11 @@ This design significantly reduces the risk of **legal hallucination** and ensure
 
 ### Final Architecture (Simplified)
 
-![Final Architecture](../assets/final_architecture.png)
+![01_System_Architecture](../assets/01_system_architecture.png)
 
 ### Full System Pipeline
 
-![System Overview](../assets/system_overview.png)
+![02_End_To_End_Pipeline](../assets/02_end_to_end_pipeline.png)
 
 ---
 
